@@ -1,0 +1,265 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    vertical-align: baseline;
+    border: none;
+    
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  max-width: 1840px;
+  width: 100%;
+}
+
+nav {
+  position: relative;
+  z-index: 10000;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F7F7F7;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+  margin-top: 2.875rem;
+}
+
+@media (max-width:560px) {
+  nav {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+nav div a {
+  font-size: 1rem;
+  color: #4D4D4D;
+  text-align: center;
+  font-weight: 400;
+}
+
+a.pullRight:before
+{
+    position: absolute;
+    width: 0px;
+    height: 50%;
+    left: -0.1875rem;
+    top: 0.625rem;
+    content: '';
+    background: #5D89F5;
+    opacity: 0.67;
+    transition: all 0.3s;
+    z-index: 1;
+}
+
+a.pullRight:hover:before
+{
+    width: 50px;
+    z-index: 1;
+}
+
+#Resume {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+@media (max-width:35rem) {
+  #Resume {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+}
+
+main {
+  background-color: #F7F7F7;
+}
+
+main section {
+    display: flex;
+    /* align-items: center; */
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    margin-left: 3.5rem;
+    margin-right: 10rem;
+    justify-content: space-between;
+}
+
+@media (max-width:1300px) {
+  main section {
+    margin-right: 5rem;
+  }
+}
+
+@media (max-width:1200px) {
+  main section {
+    margin-right: 3.5rem;
+  }
+}
+
+@media (max-width:900px) {
+  main section {
+    flex-direction: column;
+  }
+}
+
+main section div {
+    display: flex;
+    flex-direction: column;
+}
+
+main section h1 {
+    font-size: 2.25rem;
+    color: #002D9C;
+    margin-bottom: 56px;
+    font-weight: 400;
+}
+
+@media (max-width:1050px) {
+  main section h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+main section h2 {
+    font-size: 1.5rem;
+    color: #002D9C;
+    letter-spacing: 0.7px;
+    margin-bottom: 10px;
+    margin-top: 2.5rem;
+    font-weight: 400;
+}
+
+@media (max-width:1050px) {
+  main section h2 {
+    font-size: 1.3125rem;
+  }
+}
+
+main section p {
+    font-size: 1.3125rem;
+    color: #4D4D4D;
+    letter-spacing: 1px;
+    line-height: 2.1875rem;
+    max-width: 41.5rem;
+    font-weight: 300;
+}
+
+@media (max-width:1050px) {
+  main section p {
+    font-size: 1.125rem;
+    max-width: 30rem;
+    margin-bottom: 32px;
+  }
+}
+
+#QFTB-notif {
+    max-width: 25.9375rem;
+    width: 100%;
+    height: auto;
+    margin-left: 8px;
+}
+
+@media (max-width:1200px) {
+  #QFTB-notif {
+    max-width: 350px;
+    max-height: 755.66px;
+  }
+}
+
+@media (max-width:1050px) {
+  #QFTB-notif {
+    max-width: 300px;
+    max-height: 647.71px;
+  }
+}
+
+/* @media (max-width:900px) {
+  #QFTB-notif {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  } */
+
+/* @media (max-width:560px) {
+  #QFTB-notif {
+  }
+}
+
+@media (max-width:400px) {
+  #QFTB-notif {
+  }
+} */
+
+#QFTBmock {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10rem;
+    max-width: 1840px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 3.5rem;
+    margin-left: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width:560px) {
+  footer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+#email {
+    font-size: 1rem;
+    color: #4D4D4D;
+    text-decoration: none;
+}
+  
+.dribbble {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+ 
+@media (max-width:560px) {
+  .dribbble {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+.linkedin:hover {
+    fill: #007BB6
+}
+  
+.dribbble:hover {
+    fill: #EA4C89;
+}
+  
+.twitter:hover {
+    fill: #1DA1F2
+}
+}
